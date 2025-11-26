@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="Test" >
+  <groups> 
+  		<run> 
+  			<include name="Sanity" > 
+  			
+  			</include>
+  			
+  			
+  		</run>
+  </groups>
+  
+    <classes>
+   		
+   <class name="nov_21.ParallelExecutionDemo2"/> 
+   
+    <!--    <class name="nov_21.ParallelExecutionDemo"/> -->
+       
+       <class name="nov_21.TestNGGroupDemo"/>
+       
+       <!--    <class name="nov_20_D4.CrossBrowserDemo"/> -->
+       
+ 		    <!-- 	  <parameter  name ="Browser" value="Chrome" /> -->
+  	 		<!--    <parameter  name ="Browser" value="Firefox" /> -->
+  	 		<!--     <parameter  name ="Browser" value="Edge" />  -->
+  	        <!-- <parameter  name = "Browser" value= "Chrodme987" />  -->
+  	     	<!-- <parameter  name = "Browser" value= "EDGE" /> -->
+   
+    </classes>
+    
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
