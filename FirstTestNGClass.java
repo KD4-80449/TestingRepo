@@ -18,6 +18,7 @@ public class FirstTestNGClass {
   @Test
   public void f1() {
 	  System.out.println("I am in @Test annotation  f1 method");
+     System.out.println("Hello from local repo through Vscode...");
   }
   
   @BeforeMethod
